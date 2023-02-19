@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(27, 31, 47, 0.7),rgba(27, 31, 47, 0.7)), 
+    url(Images/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    padding: 2% 6%;
+    height: 150px;
+    width: 150px;
+}
+
+.nav-links{
+    padding: 3% 6%;
+    flex:1;
+    text-align: right;
+    position: relative;
+
+    color: #fff;
+    font-size: 13px;
+    font-family: "Verdana";
+}
+#MENU{
+    padding: 1% 2%;
+    font-family: "Verdana";
+}
+#NOSOTROS{
+    padding: 1% 2%;
+    font-family: "Verdana";
+}
+#MARATONES{
+    padding: 1% 2%;
+    font-family: "Verdana";
+}
+#BLOG{
+    padding: 1% 2%;
+    font-family: "Verdana";
+}
+#INSCRIBETE{
+    padding: 1% 2%;
+    font-family: "Verdana";
+}
+
+.Intro{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: "Verdana";
+}
+
+.Intro h1{
+    font-size: 62px;
+}
+
+.Intro p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+}
+
+#saber{
+    padding: 1% 2%;
+    font-family: "Verdana";
+    color: #fff;
+    font-size: 13px;
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 1px ;
+}
+
+
+.entrena{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Verdana";
+}
+
+.entrena h1{
+    font-size: 50px;
+    color:rgba(27, 31, 47);
+}
+
+.entrena p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: rgba(27, 31, 47);
+}
+
+.entrena table{
+    font-family: "Verdana";
+    background-color: rgba(27, 31, 47, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Maratones{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Verdana";
+}
+
+#nivel{
+    padding: 2% 2%;
+    font-family: "Verdana";
+    color: rgba(27, 31, 47, 0.7);
+    font-size: 13px;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+
+}
+
+.col{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 4% 2%;
+
+}
+
+#ciu{
+    border-radius: 10px;
+}
+
+#div-grande{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 31, 47, 0.7);
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 180px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 20px;
+}
+.columna-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.elemento-formulario{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Verdana";
+    color: #fff;
+}
+#inp{
+    margin-left: 10px;
+}
+
+#boton-formulario{
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 80px;
+    height: 50px;
+    font-family:"Verdana";
+    font-family: "Verdana";
+    color: rgba(27, 31, 47, 0.7);
+    font-size: 13px;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+
+
+}
+
+
+
+.div-grande{
+    width: 900px;
+    height: 200px;
+    justify-content: center;
+    background-color: red;
+    border-radius: 20px;
+    background-color: lightcyan;
+    text-align: center;
+    margin-left: 250px;
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 30px;
+}
+.parrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#contenedor{
+    justify-content: center;
+    align-items: center;
+}
