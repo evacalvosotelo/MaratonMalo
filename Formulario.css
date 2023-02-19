@@ -1,0 +1,33 @@
+#div-grande{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 31, 47, 0.7);
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 180px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 20px;
+}
+.columna-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.elemento-formulario{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Verdana";
+    color: #fff;
+}
+#boton-formulario{
+    margin-top: 20px;
+    margin-left: 620px;
+    width: 80px;
+    height: 50px;
+    font-family:"Verdana";
+}
