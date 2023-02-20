@@ -116,7 +116,7 @@ nav img{
     width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
     font-family: "Verdana";
 }
 
@@ -163,6 +163,7 @@ nav img{
     flex-direction: column;
     padding-top: 20px;
 }
+
 .elemento-formulario{
     text-align: left;
     margin-top: 10px;
@@ -172,44 +173,50 @@ nav img{
 }
 #inp{
     margin-left: 10px;
+    color: rgb(27, 31, 47);
 }
 
-#boton-formulario{
-    margin-top: 20px;
-    margin-left: 700px;
-    width: 80px;
-    height: 50px;
-    font-family:"Verdana";
-    font-family: "Verdana";
+#forms{
+    padding: 1% 1%;
+    margin: 3%;
     color: rgba(27, 31, 47, 0.7);
     font-size: 13px;
     background-color: #fff;
     border-color: #fff;
     border-radius: 10px;
-
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Verdana";
 }
-
-
 
 .div-grande{
     width: 900px;
     height: 200px;
     justify-content: center;
-    background-color: red;
     border-radius: 20px;
-    background-color: lightcyan;
+    background-color: rgba(224, 255, 255, 0.541);
     text-align: center;
     margin-left: 250px;
 }
+#div-enorme{
+    width: 900px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(224, 255, 255, 0.541);
+    text-align: center;
+    margin-left: 250px;
+}
+
 .titulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Verdana"
     font-size: 40px;
     margin-top: 30px;
     padding: 30px;
 }
 .parrafo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Verdana"
     font-size: 13px;
 }
 #contenedor{
@@ -217,24 +224,40 @@ nav img{
     align-items: center;
 }
 
-
+#blanco{
+    color: #fff;
+}
 
 #ir{
-    padding: 2% 2%;
+    padding: 2% 20%;
     font-family: "Verdana";
     color: rgba(27, 31, 47, 0.7);
     font-size: 13px;
     background-color: #fff;
     border-color: #fff;
     border-radius: 10px;
-
 }
 
-.tabla{
-    justify-content: space-between;
-    display: flex;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding: 4% 2%;
+.tabla h1{
+    font-family: "Verdana";
+    font-size: 50px;
+    color:rgba(27, 31, 47);
+}
 
+.tabla p{
+    font-family: "Verdana";
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: rgba(27, 31, 47);
+}
+
+.tabla table{
+    text-align: center;
+    font-family: "Verdana";
+    background-color: rgba(221, 223, 228, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
