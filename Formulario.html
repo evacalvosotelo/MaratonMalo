@@ -22,19 +22,40 @@
         </nav>
 
         <form action="/" method="get">
-            <div id = "div-grande">
-                <div class = "columna-input">
-                    <label class = "elemento-formulario" for=""> Nombre </label>
-                    <label class = "elemento-formulario" for=""> ¿Donde vive? </label>
-                    <label class = "elemento-formulario" for=""> Cuál es su nivel </label>
+            <div id="div-grande">
+                <div class="columna-input">
+                    <label class="elemento-formulario" for=""> Nombre </label>
+                    <label class="elemento-formulario" for=""> ¿Donde vive? </label>
+                    <label class="elemento-formulario" for=""> Cuál es su nivel </label>
                 </div>
-                <div class = "columna-input">
-                    <input id="inp" class = "elemento-formulario" type="text">
-                    <input id="inp" class = "elemento-formulario" type="text">
-                    <input id="inp" class = "elemento-formulario" type="text">
+                <div class="columna-input">
+                    <input id="inp" class="elemento-formulario" type="text">
+                    <p>
+                        <br>
+                    </p>
+                    <select id="inp">
+                        <option>Madrid</option>
+                        <option>Paris</option>
+                        <option>Milan</option>
+
+                    </select>
+
+                    <p>
+                        <br>
+                    </p>
+                    <select id="inp">
+                        <option>Nivel Bajo</option>
+                        <option>Nivel Medio</option>
+                        <option>Nivel Alto</option>
+                    </select>
+
                 </div>
-            </div>    
-            <button id = "boton-formulario">Enviar formulario</button>
+            </div>
+            <a href="index.html">
+                <button id="forms" style="opacity: 50;">
+                    Enviar Formulario
+                </button>
+            </a>
         </form>
 
 </body>
