@@ -216,3 +216,16 @@ nav img{
     justify-content: center;
     align-items: center;
 }
+
+
+
+#ir{
+    padding: 2% 2%;
+    font-family: "Verdana";
+    color: rgba(27, 31, 47, 0.7);
+    font-size: 13px;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+
+}
